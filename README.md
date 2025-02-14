@@ -1,5 +1,5 @@
 
-#XAI-Shear: Explainable AI for Shear Strength Prediction
+#XAI-GP: Explainable AI for Shear Strength Prediction
 ========================================================
 This script is designed to run in **Google Colab** and implements **Explainable AI (XAI) for shear strength prediction** using **H2O.ai models**.
 
