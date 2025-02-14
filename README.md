@@ -4,7 +4,7 @@
 This script is designed to run in **Google Colab** and implements **Explainable AI (XAI) for shear strength prediction** using **H2O.ai models**.
 
 ### **Overview**
-Shear strength is a critical parameter in **structural engineering**, particularly for designing **reinforced concrete beams**. This script leverages **machine learning models** to predict shear strength based on various beam properties, such as:
+Shear strength is a critical parameter in **structural engineering**, particularly for designing **concrete beams**. This script leverages **machine learning models** to predict shear strength based on various beam properties, such as:
 - **Effective depth of the beam**
 - **Shear span**
 - **Maximum aggregate size**
