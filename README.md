@@ -45,7 +45,7 @@ The script applies **H2O.ai’s powerful AutoML framework** to train and evaluat
 
 
 To perform an explainability analysis, please use xai-shear.py. Make sure to uncomment the necessary sections, as the code is designed to run in both an R environment and Google Colab.
-![Alt Text](https://github.com/implab-ugr/ShearbyXAI/uml_diagram_final.png)
+![Alt Text](https://github.com/ipmlab-ugr/ShearbyXAI/uml_diagram_final.png)
 
 ---
 ## **Implemntation of Genetic Programming:**
