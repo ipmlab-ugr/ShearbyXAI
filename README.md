@@ -18,21 +18,20 @@ The script applies **H2O.ai’s powerful AutoML framework** to train and evaluat
 ### **Key Features:**
  **Loads & preprocesses data** from an Excel file
  **Trains multiple machine learning models**, including:
-   - **Deep Learning (DL)**
+   - **Multi-layers Perceptron (MLP)**
    - **Gradient Boosted Machines (GBM)**
-   - **Generalized Linear Model (GLM)**
    - **Random Forest (RF)**
    - **Stacked Ensembles** (combining multiple models for better predictions)
  **Uses DALEXtra** to explain model predictions
- **Visualizes feature importance and model behavior**
+ **Visualizes SHAP and Breakdown**
 
 ---
 ### **How It Works:**
-🔹 The dataset (`M1cylinderical.xlsx`) is uploaded to **Google Colab**.
-🔹 The script preprocesses the data and splits it into **training and test sets**.
-🔹 Several machine learning models are trained using **H2O.ai’s AutoML framework**.
-🔹 The **DALEXtra library** is used to explain predictions and understand model behavior.
-🔹 **Feature importance plots and SHAP values** provide insights into key influencing parameters.
+- The dataset (`M1cylinderical.xlsx`) is uploaded to **Google Colab**.
+- The script preprocesses the data and splits it into **training and test sets**.
+- Several machine learning models are trained using **H2O.ai’s AutoML framework**.
+- The **DALEXtra library** is used to explain predictions and understand model behavior.
+- **SHAP and Breadown plots** provide insights into key influencing parameters.
 
 ---
 ### **Code Structure:**
@@ -49,10 +48,11 @@ To perform an explainability analysis, please use xai-shear.py. Make sure to unc
 
 ---
 ## **Implemntation of Genetic Programming:**
-For genetic programming (GP), use data-for-gp.csv and execute gp-main-for-eq-that-reported.py. For verification, use data-for-verification.
+For Genetic Programming (GP), use data-for-gp.csv and execute gp-main-for-eq-that-reported.py. For verification, use data-for-verification.
 
 ---
-## ** Cite the code:**
+## **Cite the code:**
+
 To cite this code, please use the following reference: @misc{iPMLab2025,
   author = {{iPMLab}},
   title = {Codes Repository},
